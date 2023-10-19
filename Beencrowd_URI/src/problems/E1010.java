@@ -1,4 +1,5 @@
 package problems;
+
 import java.util.Scanner;
 
 public class E1010 {
@@ -7,18 +8,17 @@ public class E1010 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int pc1, pc2, qt1, qt2;
-		double v1,v2;
+		int code, quantidade;
+		double valor, total = 0.0;
 		
-		pc1 = sc.nextInt(); 
-		qt1 = sc.nextInt();
-		v1 = sc.nextDouble();
+		for (int i=0; i<=1;i++) {
+			code = sc.nextInt(); 
+			quantidade = sc.nextInt();
+			valor = sc.nextDouble();
+			total += quantidade*valor;
+		}
 		
-		pc2 = sc.nextInt(); 
-		qt2 = sc.nextInt();
-		v2 = sc.nextDouble();
-		
-		System.out.printf("VALOR A PAGAR: R$ %.2f\n", qt1*v1 + qt2*v2);
+		System.out.printf("VALOR A PAGAR: R$ %.2f\n", total);
 		
 		sc.close();
 	}
