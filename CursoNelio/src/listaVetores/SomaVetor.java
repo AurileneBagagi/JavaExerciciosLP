@@ -30,6 +30,7 @@ public class SomaVetor {
 		System.out.printf("\nSOMA = %.2f%n", soma);
 		System.out.printf("MEDIA = %.2f%n", soma/tamVetor);
 		
+		sc.close();
 	}
-
+	
 }
