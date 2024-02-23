@@ -18,7 +18,7 @@ public class PersionatoProgram {
 		for (int i = 0; i < total; i++) {
 			System.out.printf("Locatario #%d:\n", i+1);
 			System.out.print("Nome: ");
-			sc.nextLine();
+			sc.nextLine(); //quebra de linha do input anterior
 			String nome = sc.nextLine();
 			System.out.print("Email: ");
 			String email = sc.next();
