@@ -48,6 +48,8 @@ public class FuncionarioProgram {
 		for (Funcionario funcionario : funcionarios) {
 			System.out.println(funcionario);
 		}
+		
+		sc.close();
 	}
 	
 	/*
