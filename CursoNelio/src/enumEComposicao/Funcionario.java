@@ -11,7 +11,7 @@ public class Funcionario {
 	private Double salarioBase;
 	
 	private Departamento departamento;
-	private List<HorasContrato> contratos = new ArrayList();
+	private List<HorasContrato> contratos = new ArrayList<>();
 	
 	public Funcionario() {
 	}
