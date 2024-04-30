@@ -1,6 +1,5 @@
 package herancaepolimorfismo;
 
-
 public class FuncionarioTerceirizados extends Funcionario {
 	
 	private Double despesaAdicional;
